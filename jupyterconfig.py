@@ -7,6 +7,7 @@ c = get_config()
 
 ### Password protection ###
 c.NotebookApp.password = ''
+c.NotebookApp.token = ''
 
 ### PostresContentsManager ###
 database_url = os.getenv('DATABASE_URL', None)
